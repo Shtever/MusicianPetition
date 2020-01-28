@@ -4,7 +4,7 @@ font-family: 'Lalezar', cursive;
 font-family: 'Ultra', serif;
 font-family: 'Fugaz One', cursive; */
 
-#sign{
+#sign {
     font-size: 140%;
     font-weight: 900;
     color: red;
@@ -24,24 +24,25 @@ body {
 
 .card, .heading {
     background-color: rgba(255, 255, 255, .9);
+    font-size: 100%;
 }
 
-h1, .card-header, .btn-link{
-text-align: center;
-font-size: 100%;
+h1, .card-header, .btn-link {
+    text-align: center;
+    font-size: 100%;
 }
 
 .click {
-justify-content: center;
+    justify-content: center;
 }
 
 #pageTitle {
-font-size: 300%;
-background-color: rgba(255, 255, 255, .9);
-margin-top: 1vw;
+    font-size: 300%;
+    background-color: rgba(255, 255, 255, .9);
+    margin-top: 1vw;
 }
 
-.btn-danger{
+.btn-danger {
     font-size: 200%;
 }
 
@@ -60,4 +61,36 @@ margin-top: 1vw;
 
 td {
     width: 20%;
+}
+
+@media only screen and (max-width: 1000px) {
+    td {
+        background-color: lightblue;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    #pageTitle {
+        font-size: 200%;
+    }
+
+    #sign {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    td {
+        background-color: lightblue;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    #pageTitle {
+        font-size:150%;
+    }
+
+    #sign {
+        font-size: 100%;
+    }
 }

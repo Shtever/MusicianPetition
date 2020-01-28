@@ -4,10 +4,11 @@ font-family: 'Lalezar', cursive;
 font-family: 'Ultra', serif;
 font-family: 'Fugaz One', cursive; */
 
-.toDo{
-    font-size: 3vw;
+#sign{
+    font-size: 140%;
     font-weight: 900;
     color: red;
+    text-align: center;
 }
 
 body {
@@ -27,7 +28,7 @@ body {
 
 h1, .card-header, .btn-link{
 text-align: center;
-font-size: 1.3vw;
+font-size: 100%;
 }
 
 .click {
@@ -35,15 +36,24 @@ justify-content: center;
 }
 
 #pageTitle {
-font-size: 3vw;
+font-size: 300%;
 background-color: rgba(255, 255, 255, .9);
 margin-top: 1vw;
 }
 
 .btn-danger{
-    font-size: 1.5vw;
+    font-size: 200%;
 }
 
 .reference {
     font-size: .8vw;
+}
+
+.table {
+    font-size: 100%;
+}
+
+.sign2 {
+    font-size: 200%;
+    margin-bottom: 0;
 }

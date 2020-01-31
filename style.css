@@ -63,6 +63,10 @@ td {
     width: 20%;
 }
 
+#counter {
+    display: none;
+}
+
 @media only screen and (max-width: 1000px) {
     td {
         background-color: lightblue;

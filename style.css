@@ -63,8 +63,12 @@ td {
     width: 20%;
 }
 
-#counter {
-    display: none;
+/* #counter {
+    display: none !important;
+} */
+
+.hidden {
+    display:none !important;
 }
 
 @media only screen and (max-width: 1000px) {
